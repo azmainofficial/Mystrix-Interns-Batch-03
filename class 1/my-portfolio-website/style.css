@@ -183,3 +183,44 @@ transition: all 0.1s;
     cursor: pointer;
     font-family: "Orbitron", sans-serif;
 }
+
+.portfolio{
+    display: flex;
+}
+.card-portfolio{
+    width: 250px;
+    border-radius: 10px;
+    background-color: #58345340;
+}
+.card-portfolio img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.card-portfolio .info{
+    padding: 10px;
+}
+.card-portfolio .info .subtitle{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.card-portfolio .info .title{
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.card-portfolio .info p{
+    font-size: 13px;
+}
+
+.card-portfolio .info button{
+    padding: 10px 20px;
+    background: #fffcff;
+    color: #59004c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif;
+}
