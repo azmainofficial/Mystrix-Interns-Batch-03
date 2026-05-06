@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" id="image">
+    <p id="badge"></p>
+    <h1 id="name"></h1>
+    <p id="deg"></p>
+    <p id="bio"></p>
+
+    <script src="./main.js"></script>
+    <script>
+        document.getElementById('name').textContent = member.name;
+        document.getElementById('deg').textContent = member.deg;
+        document.getElementById('bio').textContent = member.bio;
+        document.getElementById('image').src = member.img;
+    </script>
+</body>
+</html>
